@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Autoscuole Finiletti</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background-color: #f4f4f4;
+
+      color: #333;
+
+    }
+
+
+
+    header {
+
+      background-color: #005baa;
+
+      color: white;
+
+      padding: 20px 10px;
+
+      text-align: center;
+
+    }
+
+
+
+    header h1 {
+
+      margin: 0;
+
+      font-size: 2em;
+
+    }
+
+
+
+    nav {
+
+      background-color: #ff6600;
+
+      text-align: center;
+
+      padding: 10px 0;
+
+    }
+
+
+
+    nav a {
+
+      color: white;
+
+      text-decoration: none;
+
+      margin: 0 15px;
+
+      font-weight: bold;
+
+    }
+
+
+
+    section {
+
+      padding: 20px;
+
+      max-width: 1000px;
+
+      margin: auto;
+
+      background-color: white;
+
+    }
+
+
+
+    .sedi {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 20px;
+
+    }
+
+
+
+    .sede {
+
+      flex: 1;
+
+      min-width: 250px;
+
+      border: 1px solid #ddd;
+
+      padding: 15px;
+
+      border-radius: 8px;
+
+    }
+
+
+
+    .sede h3 {
+
+      color: #005baa;
+
+    }
+
+
+
+    .orari, .servizi {
+
+      margin-top: 20px;
+
+    }
+
+
+
+    footer {
+
+      text-align: center;
+
+      padding: 15px;
+
+      background-color: #005baa;
+
+      color: white;
+
+      margin-top: 40px;
+
+    }
+
+
+
+    @media (max-width: 600px) {
+
+      nav a {
+
+        display: block;
+
+        margin: 10px 0;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <header>
+
+    <h1>Autoscuole Finiletti</h1>
+
+    <p>Professionalità e formazione per ogni tipo di patente</p>
+
+  </header>
+
+
+
+  <nav>
+
+    <a href="#sedi">Sedi</a>
+
+    <a href="#orari">Orari</a>
+
+    <a href="#servizi">Servizi</a>
+
+    <a href="#contatti">Contatti</a>
+
+  </nav>
+
+
+
+  <section id="sedi">
+
+    <h2>Le nostre sedi</h2>
+
+    <div class="sedi">
+
+      <div class="sede">
+
+        <h3>Sede di Cerea</h3>
+
+        <p>📍 Via Libertà 25/B</p>
+
+        <p>📞 0442 80445</p>
+
+      </div>
+
+      <div class="sede">
+
+        <h3>Sede di Legnago</h3>
+
+        <p>📍 Via Frattini 96</p>
+
+        <p>📞 0442 25157</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="orari" class="orari">
+
+    <h2>Rinnovo patente con medico in sede</h2>
+
+    <ul>
+
+      <li><strong>Cerea:</strong> Martedì e Venerdì dalle 17:30 alle 19:00</li>
+
+      <li><strong>Legnago:</strong> Lunedì dalle 18:00</li>
+
+    </ul>
+
+  </section>
+
+
+
+  <section id="servizi" class="servizi">
+
+    <h2>Servizi offerti</h2>
+
+    <ul>
+
+      <li>Patenti di tutte le categorie</li>
+
+      <li>Corsi recupero punti</li>
+
+      <li>Corsi rinnovo CQC</li>
+
+    </ul>
+
+  </section>
+
+
+
+  <section id="contatti">
+
+    <h2>Contatti</h2>
+
+    <p>📧 Email: <a href="mailto:autoscuolafiniletti@libero.it">autoscuolafiniletti@libero.it</a></p>
+
+    <p>📨 PEC: <a href="mailto:pec.autoscuolefiniletti@pec.it">pec.autoscuolefiniletti@pec.it</a></p>
+
+  </section>
+
+
+
+  <footer>
+
+    <p>&copy; 2025 Autoscuole Finiletti - Tutti i diritti riservati</p>
+
+  </footer>
+
+
+
+</body>
+
+</html>
